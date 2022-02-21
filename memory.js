@@ -1,5 +1,5 @@
 
-var cards = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg", "10.jpg", "11.jpg", "12.jpg","6.jpg","2.jpg","4.jpg","12.jpg","1.jpg","5.jpg","6.jpg","3.jpg","8.jpg","9.jpg","11.jpg","7.jpg","10.jpg"];
+var cards = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg", "10.jpg", "11.jpg", "12.jpg","6.jpg","2.jpg","4.jpg","12.jpg","1.jpg","5.jpg","3.jpg","8.jpg","9.jpg","11.jpg","7.jpg","10.jpg"];
 
 //alert(cards[4]);
 
@@ -73,7 +73,7 @@ var oneVisible = false;
 var turnCounter = 0;
 var visible_nr;
 var lock = false;
-var pairsLeft = 6;
+var pairsLeft = 12;
 
 function revealCard(nr)
 {
@@ -145,11 +145,11 @@ function hide2Cards(nr1, nr2)
 
 function restore2Cards(nr1, nr2)
 {
-	$('#c'+nr1).css('background-image', 'url(img/karta.jpg)');
+	$('#c'+nr1).css('background-image', 'url(img/karta.png)');
 	$('#c'+nr1).addClass('card');
 	$('#c'+nr1).removeClass('cardA');	
 
-	$('#c'+nr2).css('background-image', 'url(img/karta.jpg)');
+	$('#c'+nr2).css('background-image', 'url(img/karta.png)');
 	$('#c'+nr2).addClass('card');
 	$('#c'+nr2).removeClass('cardA');
 	
