@@ -6,7 +6,7 @@ body
 	background-size: 100%;
 	color: #F50A31;
     font-family: 'Lobster', sans-serif;
-    font-size: 28px;
+    font-size: 40px;
 	
 }
 
@@ -80,9 +80,9 @@ p
 
 .score
 {
-	margin-top: 5px;
+	margin-top: 0px;
 	letter-spacing: 2px;
-	color: #ffffff;
+	color: #000000;
 	font-weight: bold;
   
 }
